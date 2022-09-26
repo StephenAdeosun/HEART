@@ -1,0 +1,126 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+body {
+  background: black;
+}
+.login-box {
+  background-color: white;
+  width: 420px;
+  height: 600px;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 30px 30px;
+  top: 7%;
+  left: 35%;
+  bottom: 40%;
+}
+h1 {
+  color: blue;
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 0.1%;
+  padding: 0 0 20px;
+  text-align: center;
+}
+#mobile-number{
+  height: 15px;
+  width: 340px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1.8px solid #d6d6d6;
+  background-color: rgb(234, 227, 227);
+  margin-bottom: 10px;
+}
+#mobile-number:hover {
+  border: 1px solid #d6d6d6;
+}
+#password{
+    height: 15px;
+    width: 340px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1.8px solid #d6d6d6;
+    background-color: rgb(234, 227, 227);
+    margin-bottom: 10px;
+  }
+ #password:hover {
+    border: 1px solid #d6d6d6;
+  }
+.log-in {
+  width: 362px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: blue;
+  color: #d6d6d6;
+  border: blue;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+button:hover {
+  transition: 0.8s;
+  color: aquamarine;
+  background: black;
+}
+#log-in {
+  color: aquamarine;
+  text-decoration: none;
+}
+#log-in:hover {
+  color: aquamarine;
+}
+.forgot-password {
+  text-align: center;
+  width: 95%;
+  height: 40px;
+  right: 650%;
+  font-size: 15px;
+}
+
+
+#fog{
+    text-decoration: none;
+    color: blue;
+    font-weight: 599;
+}
+.fog:hover{
+    color: black;
+}
+.back{
+    text-align: center;
+    width: 95%;
+    height: 40px;
+    right: 300%;
+    color: rgb(10, 10, 239);
+    
+  }
+  .p{
+    font-size: 12px;
+    margin-bottom: 22px;
+    margin-top: 50px;
+    font-weight: 100;
+  }
+.create-acct{
+    width: 360px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:green;
+    color: #d6d6d6;
+    border: green;
+    /* margin-top: 10px; */
+    /* margin-bottom: 20px; */
+    font-size: 14px;
+    text-align: center;
+    margin-right: 10000px;
+  }
+#dallas{
+  font-size: smaller;
+  text-align: center;
+  margin-top: 100px;
+}
